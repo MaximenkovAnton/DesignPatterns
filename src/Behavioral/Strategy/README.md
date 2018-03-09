@@ -1,3 +1,4 @@
+# The stategy pattern
 **_The Strategy Pattern_** defines a family of algorithms, encapsulates each one, and makes them interchangeable.
 _Strategy_ lets the algorithm vary independently from clients that use it.
 
@@ -5,8 +6,7 @@ If you just read it, maybe it seams a little bit difficult for you, but it's not
 Basically it means, that if you have a part of code, that will vary, you can just create a `Strategy`.
 If will simplify your work and make your code much more flexible.
 
-#**_EXAMPLE_**
-
+# _EXAMPLE_
 Lets create a simple `dog` class. All dogs can bark (okay, almost all), but how it should bark? Like a puppy?
 Or like a big old dog? Should it be an aggressive barking, or not? And of-course puppy will grow up, 
 and even really kind dog in some situations can be aggressive.
