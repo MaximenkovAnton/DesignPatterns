@@ -24,3 +24,5 @@ But that means, that your app can hold an object in you RAM, even if you are not
 
 As for me, I prefer `eager init`. Especially if to talk about small programs and objects. 
 Anyway, we will discuss both of them in our examples.
+
+I will create only 1 UML, because it is common for both singletons. The difference is in their realization.
