@@ -1,9 +1,9 @@
 package Creational.Singleton.Eager;
 
-public class EagerSingleton {
+class EagerSingleton {
     private static EagerSingleton ourInstance = new EagerSingleton();
 
-    public static EagerSingleton getInstance() {
+    static EagerSingleton getInstance() {
         return ourInstance;
     }
 

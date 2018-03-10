@@ -1,9 +1,9 @@
 package Creational.Singleton.Lazy;
 
-public class LazySingleton {
+class LazySingleton {
     private static LazySingleton ourInstance;
 
-    public static LazySingleton getInstance()
+    static LazySingleton getInstance()
     {
         if(ourInstance == null) ourInstance = new LazySingleton();
         return ourInstance;
