@@ -1,4 +1,4 @@
-package Creational.Observer.FullImpl;
+package Behavioral.Observer.FullImpl;
 
 class TVShow extends Observer {
     @Override

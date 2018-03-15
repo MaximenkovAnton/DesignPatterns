@@ -1,4 +1,4 @@
-package Creational.Observer.FullImpl;
+package Behavioral.Observer.FullImpl;
 
 import java.util.ArrayList;
 

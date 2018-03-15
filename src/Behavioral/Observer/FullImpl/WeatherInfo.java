@@ -1,4 +1,4 @@
-package Creational.Observer.FullImpl;
+package Behavioral.Observer.FullImpl;
 
 class WeatherInfo extends Info{
     private String weather;

@@ -1,4 +1,4 @@
-package Creational.Observer.FullImpl;
+package Behavioral.Observer.FullImpl;
 
 abstract class Forcast {
     abstract void registerObserver(Observer observer);

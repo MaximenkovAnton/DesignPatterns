@@ -1,4 +1,4 @@
-package Creational.Observer.FullImpl;
+package Behavioral.Observer.FullImpl;
 
 public class MainObserver {
     public static void main(String[] args) {

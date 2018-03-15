@@ -1,4 +1,4 @@
-package Creational.Observer.JavaImpl;
+package Behavioral.Observer.JavaImpl;
 
 class WeatherInfo {
     private String weather;

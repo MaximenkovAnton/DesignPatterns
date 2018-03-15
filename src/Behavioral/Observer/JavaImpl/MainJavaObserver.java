@@ -1,4 +1,4 @@
-package Creational.Observer.JavaImpl;
+package Behavioral.Observer.JavaImpl;
 
 public class MainJavaObserver {
     public static void main(String[] args) {

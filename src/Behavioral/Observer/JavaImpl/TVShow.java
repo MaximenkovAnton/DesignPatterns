@@ -1,4 +1,4 @@
-package Creational.Observer.JavaImpl;
+package Behavioral.Observer.JavaImpl;
 
 import java.util.Observable;
 import java.util.Observer;
