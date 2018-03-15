@@ -4,7 +4,7 @@ import java.util.Observable;
 import java.util.Observer;
 
 class TVShow implements Observer{
-    WeatherInfo info;
+    private WeatherInfo info;
     @Override
     public void update(Observable observable, Object o) {
         WeatherForecast forecast = (WeatherForecast) observable;
