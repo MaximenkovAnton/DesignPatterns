@@ -7,11 +7,9 @@ class TVShow implements Observer{
     WeatherInfo info;
     @Override
     public void update(Observable observable, Object o) {
-        if (observable instanceof WeatherForecast){
-            WeatherForecast forecast = (WeatherForecast) observable;
-            info = forecast.getWeatherInfo();
-            showWeather();
-        }
+        WeatherForecast forecast = (WeatherForecast) observable;
+        info = forecast.getWeatherInfo();
+        showWeather();
     }
 
     private void showWeather() {
